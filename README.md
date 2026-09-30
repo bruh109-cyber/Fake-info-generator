@@ -27,8 +27,7 @@ Requirement:
 Usage:
    python fake_data.py
 Project Structure:
-   ├── main.py          # Core script for generating and exporting fake data
-   ├── requirements.txt # Python package requirements
+   ├── fake_data.py          # Core script for generating and exporting fake data
    └── README.md        # Documentation
 
 
