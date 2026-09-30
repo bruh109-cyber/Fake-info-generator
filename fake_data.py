@@ -70,35 +70,4 @@ save_option = input("[?] Do you want to save the data to a file? (yes/no): ")
 if save_option == 'yes':
     file_type = input("[!] Enter file type (csv/txt/both): ").lower()
     if file_type == 'csv' or file_type == 'both':
-        custom_filename_csv = input("[!] Enter the CSV filename (without entension): ")
-        filename_csv = f"{custom_filename_csv}.csv"
-        save_to_csv(user_data, filename_csv)
-        
-    if file_type == 'txt' or file_type == 'both':
-        custom_filename_txt = input("[!] Enter the TXT filename (without extension): ")
-        filename_txt = f"{custom_filename_txt}.txt"
-        save_to_text(user_data, filename_txt)
-        
-    if file_type not in ['csv', 'txt', 'both']:
-        print("[-] Invalid file type. Data not saved.")
-        
-else:
-    print_data_vertically(user_data)
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        custom_filename_csv = input("[!] Enter the CSV filename (without
