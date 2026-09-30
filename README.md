@@ -21,3 +21,15 @@ A Python tool designed to generate realistic synthetic profile data using the `F
    ```bash
    git clone [https://github.com/bruh109-cyber/Fake-info-generator.git](https://github.com/bruh109-cyber/Fake-info-generator.git)
    cd Fake-info-generator
+
+Requirement:
+   pip install faker
+Usage:
+   python fake_data.py
+Project Structure:
+   ├── main.py          # Core script for generating and exporting fake data
+   ├── requirements.txt # Python package requirements
+   └── README.md        # Documentation
+
+
+
