@@ -1,34 +1,30 @@
 # Fake-info-generator
 
-A Python tool designed to generate realistic synthetic profile data using the `Faker` library and export the output into organized TXT or CSV formats.
+This is a Python-based application designed to generate fake data profiles utilizing the Faker library and save the data either in txt or csv file format.
 
 ---
 
 ## Features
 
-- **Custom Data Generation:** Generates synthetic personal records including names, addresses, emails, phone numbers, and job titles.
-- **Multiple Output Formats:** Seamlessly exports generated datasets directly to `.csv` or `.txt` files.
-- **Configurable Batch Sizes:** Specify the exact number of synthetic profiles to produce.
+- **Personal Data Generation:** The tool can create fake personal data records that contain names, addresses, emails, phone numbers, and job titles.
+- **Multiple Formats Exportation:** It can directly export the generated fake data in either .csv or .txt file format.
+- **Batch Configuration:** Configure the size of your batch in order to generate a certain number of fake data.
 
-## Tech Stack
+## Technology Stack
 
 - **Language:** Python 3.x
 - **Dependencies:** `Faker`
 
-## Installation & Setup
+## Installation & Usage
 
-1. **Clone the repository:**
+1. **Cloning the repository:**
    ```bash
-   git clone [https://github.com/bruh109-cyber/Fake-info-generator.git](https://github.com/bruh109-cyber/Fake-info-generator.git)
+   git clone https://github.com/bruh109-cyber/Fake-info-generator.git
    cd Fake-info-generator
-
 Requirement:
    pip install faker
 Usage:
    python fake_data.py
 Project Structure:
-   ├── fake_data.py          # Core script for generating and exporting fake data
+   ├── fake_data.py          # Core file for generating and exporting fake data
    └── README.md        # Documentation
-
-
-
